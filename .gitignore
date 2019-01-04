@@ -22,7 +22,6 @@ documentation/*.html
 libjansi*
 
 *.log
-find-gamusinos.sh
 
 .DS_Store
 .config
