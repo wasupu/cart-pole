@@ -1,0 +1,44 @@
+# Eclipse Internal #
+.settings/
+.project
+.classpath
+
+# Maven #
+target/
+
+# IntelliJ #
+.idea/
+*.iml
+
+# AWS ECS
+.cache/
+.ecs/
+
+docker-image
+commit
+version
+documentation/*.html
+
+libjansi*
+
+*.log
+find-gamusinos.sh
+
+.DS_Store
+.config
+.kube
+
+reliability-tests/stdout*
+redsys-fake-configuration-docker-image
+redsys-proxy-configuration-docker-image
+configuration-docker-image
+*.tar.gz
+
+# Python #
+.pytest_cache
+__pycache__
+*.backup
+.cache
+.local
+logs/
+.vscode
