@@ -3,3 +3,7 @@
 Gym ai cart pole environment implemented using deep reinforcement learning with keras
 
 https://gym.openai.com/envs/CartPole-v0/
+
+## Run
+
+pipenv run python card-pole-control.py
