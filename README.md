@@ -20,6 +20,11 @@ So, our cross-entropy method is model-free, policy-based, and on-policy, which m
 * Train on the remaining "elite" episodes using observations as the input and issued actions as the desired output.
 * Repeat from step 1 until we become satisfied with the result.
 
+### Limitations
+
+* For training, our episodes have to be finite and, preferably, short
+* The total reward for the episodes should have enough variability to separate good episodes from bad ones
+* There is no intermediate indication about whether the agent has succeeded or failed
 
 ## Run
 
