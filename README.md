@@ -26,6 +26,10 @@ So, our cross-entropy method is model-free, policy-based, and on-policy, which m
 * The total reward for the episodes should have enough variability to separate good episodes from bad ones
 * There is no intermediate indication about whether the agent has succeeded or failed
 
+### Paper
+
+https://people.smp.uq.edu.au/DirkKroese/ps/eormsCE.pdf
+
 ## Run
 
 * Clone the project
